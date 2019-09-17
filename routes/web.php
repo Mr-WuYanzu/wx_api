@@ -14,4 +14,4 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/getGoodsInfo','GoodsController@getGoodsInfo');
+Route::post('/getGoodsInfo','GoodsController@getGoodsInfo');
